@@ -1,9 +1,10 @@
-from distutils.core import setup
+from setuptools import find_packages
+from setuptools import setup
 
 setup(
     name='setup_py_test',
     version='1.0.0',
-    packages=['setup_test'],
+    packages=find_packages(),
     url='',
     license='MIT',
     author='Jamie',
